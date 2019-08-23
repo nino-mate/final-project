@@ -1,5 +1,5 @@
 body{
-	padding: 40px;
+	margin: 0 auto;
 	background-image: url(../images/cover.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -11,24 +11,36 @@ body{
 }
 .flex{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #fff9;
 }
 .navbar-li{
-	margin-right: 40px;
+	margin: 40px;
 	transition: all 0.5s ease;
 }
 .navbar-li:hover{
 	color: blue;
+	background: white;
+	border-radius: 5px;
 }
 .container2{
 	width: 60%;
-	margin-top: 60px auto;
+	margin: 0 auto;
+	margin-top: 60px;
 	padding: 40px;
 	display: block;
 }
 p{
-	background-color: white;
+	margin-bottom: 20px;
+	padding: 10px;
 	text-align: center;
 	font-size: 30px;
 	color: white;
+	border: 1px solid white;
+	border-radius: 10px;
 }

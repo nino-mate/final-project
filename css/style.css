@@ -18,7 +18,15 @@ body{
 	flex-direction: row;
 	justify-content: space-around;
 }
+.navbar{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	opacity: 0.8;
+}
 .navbar-logo-txt{
+	float: left;
 	display: flex;
 	justify-content: flex-start;
 }
@@ -30,25 +38,29 @@ body{
 	font-size: 20px;
     margin: 20px 20px;
 }
-.navbar{
-	width: 100%;
-	position: fixed;
-	top: 0;
-	background-color: #fff9;
-}
 .navbar-ul{
 	display: flex;
-	justify-content: flex-end;
 }
 .navbar-li{
-	font-size: 20px;
-	margin: 20px 40px;
-	justify-content: flex-end;
-	transition: all 0.3s ease;
+	float: left;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 60px;
+	transition: all 1s ease;
 }
 .navbar-li:hover{
-	color: #cc0099;
-	text-shadow: 2px 2px 4px #ffccff;
+	text-shadow: 2px 2px 2px #ffccff;
+}
+.navbar-ul .navbar-li ul li{
+	display: none;
+	width: 300px;
+	transition: all 1s ease;
+}
+.navbar-ul .navbar-li:hover ul li{
+	display: block;
+	background: #fff;
+	text-shadow: 2px 2px 2px #ffccff;
 }
 .container2{
 	width: 80%;
@@ -96,7 +108,8 @@ body{
 }
 .container3{
 	width: 100%;
-	background-color: #fff9;
+	background-color: #fff;
+	opacity: .8;
 	padding: 20px;
 }
 h4{
@@ -125,15 +138,15 @@ h4{
 .wedding{
 	width: 40px;
 	height: 40px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .personal{
 	width: 40px;
 	height: 40px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .events{
 	width: 50px;
 	height: 30px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }

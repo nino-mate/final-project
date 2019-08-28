@@ -35,6 +35,8 @@ body{
 	margin: 10px 10px;
 }
 .navtxt{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
 	font-size: 20px;
     margin: 20px 20px;
 }
@@ -101,12 +103,14 @@ body{
 	100%{background-image: url(../images/slider6.jpg);}
 }
 .desc{
+	font-family: "DejaVu Sans Condensed Oblique", sans-serif;
 	width: 40%;
 	margin-top: 20px;
-	padding: 15px;
-	text-align: center;
-	font-size: 20px;
+	padding: 20px;
+	text-align: justify;
+	font-size: 18px;
 	color: black;
+	line-height: 20px;
 	border: solid 0.5px white;
 	box-shadow: 1px 2px 15px 5px #ffccff;
 	background-color: #ccf9;	
@@ -118,6 +122,7 @@ body{
 	padding: 20px;
 }
 h4{
+	font-family: "Arial GEO", sans-serif;
 	font-size: 20px;
 	padding-top: 10px;
 	margin-bottom: 30px;
@@ -131,6 +136,7 @@ h4{
 	margin-right: 20px;
 }
 .text{
+	font-family: "Arial GEO", sans-serif;
 	font-size: 18px;
 	color: black;
 	/*text-align: justify;*/
@@ -190,7 +196,14 @@ footer{
 	display: flex;
 	justify-content: space-between;
 }
+.footerdiv{
+	padding-top: 30px;
+}
+.footerdiv1{
+	padding-top: 80px;
+}
 .footer{
+	font-family: "Arial GEO", sans-serif;
 	font-size: 20px;
 	line-height: 20px;
 	padding-bottom: 5px;

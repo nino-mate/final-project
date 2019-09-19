@@ -13,11 +13,6 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
-.flex2{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
 .navbar{
 	width: 100%;
 	position: fixed;
@@ -51,7 +46,7 @@ body{
 	height: 40px;
 	text-align: center;
 	line-height: 60px;
-	transition: all 1s ease;
+	transition: all 2s ease;
 }
 .navbar-li:hover{
 	text-shadow: 2px 2px 2px #ffccff;
@@ -215,4 +210,29 @@ footer{
 }
 .footer1{
 	font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 1024px;){
+.container{
+	width: 100%;
+}
+.logo{
+	width: 90px;
+	margin: 5px 5px;
+}
+.navbar-li{
+	font-size: 50px;
+	height: 60px;
+	line-height: 80px;
+}
+.container2{
+	width: 100%;
+}
+.desc{
+	text-align: center;
+	font-size: 30px;
+}
 }

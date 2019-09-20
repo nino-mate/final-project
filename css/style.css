@@ -268,6 +268,7 @@ body{
 .desc{
 	width: 80%;
 	margin: 0 auto;
+	font-size: 15px;
 }
 .slider1{
 	width: 80%;
@@ -319,15 +320,21 @@ body{
 	margin: 0 auto;
 }
 .navbar-li{
-	padding-right: 20px;
-	margin-bottom: 20px;
+	padding-right: 7px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 .navbar-logo-txt{
 	margin: 0 auto;
 }
+.p1{
+	font-size: 15px;
+	margin-bottom: none;
+	text-align: center;
+}
 .container2{
 	margin: 0 auto;
-	margin-top: 20%;
+	margin-top: 30%;
 }
 .sliderdesc{
 	width: 100%;
@@ -396,27 +403,6 @@ h4{
 	font-size: 20px;
 }
 h5{
-	font-size: 15px;
-}
-}
-
-
-
-@media only screen and (max-width: 375px){
-.container2{
-	margin-top: 30%;
-}
-.navbar-li{
-	padding-right: 15px;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-.p1{
-	font-size: 15px;
-	margin-bottom: none;
-	text-align: center;
-}
-.desc{
 	font-size: 15px;
 }
 table {
